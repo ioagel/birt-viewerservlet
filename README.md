@@ -20,7 +20,7 @@
 
 <dependencies>
   <dependency>
-    <groupId>net.floulabs</groupId>
+    <groupId>net.floulabs.birt</groupId>
     <artifactId>org.eclipse.birt.viewer-servlet</artifactId>
     <version>4.8.0</version>
   </dependency>
