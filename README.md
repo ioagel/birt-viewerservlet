@@ -37,8 +37,8 @@ Programmatically create the Engine and Render the PDF report, using database for
 <dependencies>
   <dependency>
     <groupId>net.floulabs.birt</groupId>
-    <artifactId>org.eclipse.birt.runtime_4.9.0-20220315.jar</artifactId>
-    <version>4.9.0</version>
+    <artifactId>org.eclipse.birt.report.engine.api</artifactId>
+    <version>4.9.0-20220815</version>
   </dependency>
 </dependencies>
 ```
