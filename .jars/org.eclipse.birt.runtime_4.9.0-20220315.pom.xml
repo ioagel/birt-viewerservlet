@@ -2,9 +2,9 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.floulabs.birt</groupId>
-  <artifactId>org.eclipse.birt.runtime_4.9.0-20220315</artifactId>
-  <version>4.9.0</version>
-  <description>Birt runtime v4.9.0 with Dependencies</description>
+  <artifactId>org.eclipse.birt.report.engine.api</artifactId>
+  <version>4.9.0-20220815</version>
+  <description>Birt report engine api v4.9.0 with Dependencies</description>
 
   <dependencies>
     <dependency>

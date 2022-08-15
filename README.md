@@ -30,9 +30,9 @@ Supports using a servlet to render the PDF report
 </dependencies>
 ```
 
-## Birt Runtime v4.9.0
+## Birt Report Engine API v4.9.0
 
-Programmatically create the Engine and Render the PDF report
+Programmatically create the Engine and Render the PDF report, using database for data ingestion.
 ```xml
 <dependencies>
   <dependency>
@@ -42,3 +42,5 @@ Programmatically create the Engine and Render the PDF report
   </dependency>
 </dependencies>
 ```
+
+**IMPORTANT**: I have removed a lot of dependencies obsolete for my use case, supplied by the ReportEngine lib folder of the Birt Runtime. It is used *ONLY* for PDF reports, using database for data (i.e. MySQL).
