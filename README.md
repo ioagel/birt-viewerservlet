@@ -5,7 +5,7 @@ Always required in `pom.xml`
 <repositories>
   <repository>
     <id>Github Maven repo</id>
-    <url>https://raw.github.com/ioagel/maven-repo/maven</url>
+    <url>https://raw.github.com/ioagel/maven-repo/master</url>
     <releases>
       <enabled>true</enabled>
     </releases>
