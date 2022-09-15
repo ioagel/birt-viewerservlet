@@ -16,6 +16,15 @@ Always required in `pom.xml`
 </repositories>
 ```
 
+## How to maven install a jar
+```sh
+# example: copy the jar and it's pom.xml to a dir under .jars and:
+$ mvn install:install-file \
+    -Dfile=.jars/birt-runtime/4.9.0-20220915/org.eclipse.birt.runtime_4.9.0-20220315.jar \
+    -DpomFile=.jars/birt-runtime/4.9.0-20220915/pom.xml \
+    -DlocalRepositoryPath=. \
+    -DcreateChecksum=true
+```
 
 ## Birt viewer-servlet v4.8.0
 
@@ -30,15 +39,15 @@ Supports using a servlet to render the PDF report
 </dependencies>
 ```
 
-## Birt Report Engine API v4.9.0
+## Birt Runtime v4.9.0
 
 Programmatically create the Engine and Render the PDF report, using database for data ingestion.
 ```xml
 <dependencies>
   <dependency>
-    <groupId>net.floulabs.birt</groupId>
-    <artifactId>org.eclipse.birt.report.engine.api</artifactId>
-    <version>4.9.0-20220815</version>
+    <groupId>net.floulabs.birt.runtime</groupId>
+    <artifactId>org.eclipse.birt.runtime_4.9.0-20220315</artifactId>
+    <version>4.9.0</version>
   </dependency>
 </dependencies>
 ```
