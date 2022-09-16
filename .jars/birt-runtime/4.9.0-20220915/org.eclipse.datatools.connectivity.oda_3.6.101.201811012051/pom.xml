@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.floulabs.birt.runtime</groupId>
+  <artifactId>org.eclipse.datatools.connectivity.oda_3.6.101.201811012051</artifactId>
+  <version>4.9.0</version>
+  <packaging>jar</packaging>
+  <name>org.eclipse.datatools.connectivity.oda_3.6.101.201811012051</name>
+  <description>A component of the BIRT runtime</description>
+  <url>http://www.eclipse.org/projects/project.php?id=birt</url>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License - v 2.0</name>
+      <url>https://www.eclipse.org/legal/epl-2.0/</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/eclipse/birt</url>
+    <connection>https://github.com/eclipse/birt</connection>
+  </scm>
+  <developers>
+    <developer>
+      <name>Ioannis Angelakopoulos</name>
+      <email>ioagel@gmail.com</email>
+    </developer>
+  </developers>
+</project>
